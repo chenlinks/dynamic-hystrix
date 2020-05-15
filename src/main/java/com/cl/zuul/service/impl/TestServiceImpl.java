@@ -18,7 +18,7 @@ public class TestServiceImpl implements TestService {
     public String test() {
 
         try {
-            Thread.sleep(10000);
+            Thread.sleep(10);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -29,7 +29,7 @@ public class TestServiceImpl implements TestService {
     public Payload testFind() {
 
         try {
-            Thread.sleep(10000);
+            Thread.sleep(10);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
